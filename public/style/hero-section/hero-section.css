@@ -20,7 +20,6 @@ body{
     height: 95vh;
     margin: 0 auto;
     max-width: 900px;
-    border: 1px solid red;
 }
 
 .hero-title-container , .hero-image-container{
@@ -51,6 +50,19 @@ h1.hero-title, h2.hero-subtitle{
     border-radius: .5em;
     padding: .7em 1em;
     margin-top: 1.5em ;
+    cursor: pointer;
+}
+
+.hero-title-container button.call2action-btn:focus{
+    outline: 0;
+}
+
+.hero-title-container button.call2action-btn:hover{
+    background-color: #d55f05;
+}
+
+.hero-title-container button.call2action-btn:active{
+    transform: scale(0.98);
 }
 
 .hero span.name{
