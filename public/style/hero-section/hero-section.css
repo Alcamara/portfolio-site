@@ -17,8 +17,7 @@ body{
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    height: 100vh;
-    width: 100vw;
+    height: 95vh;
     margin: 0 auto;
     max-width: 900px;
     border: 1px solid red;
@@ -62,5 +61,30 @@ h1.hero-title, h2.hero-subtitle{
 
 .hero-subtitle .title{
     color:var(--secondary-color)
+}
+
+@media (max-width: 450px){
+    .hero{
+        flex-direction: column-reverse;
+        max-width: ;
+    }
+
+    .hero-title-container , .hero-image-container{
+        font-size: 1.4em;
+        width: 90%;
+        justify-content: center;
+        max-height: 600px;
+        
+    }
+
+    .hero-title-container{
+        height: 55%;
+    } 
+    
+    .hero-image-container{
+        height: 45%;
+    }
+
+
 }
 
