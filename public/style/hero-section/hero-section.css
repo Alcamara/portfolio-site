@@ -10,6 +10,8 @@ body{
     box-sizing: content-box;
 }
 
+
+
 .hero{
     padding: 0 2rem;
     font-family: 'Roboto Mono', monospace;
@@ -78,7 +80,7 @@ h1.hero-title, h2.hero-subtitle{
 @media (max-width: 450px){
     .hero{
         flex-direction: column-reverse;
-        max-width: ;
+        
     }
 
     .hero-title-container , .hero-image-container{

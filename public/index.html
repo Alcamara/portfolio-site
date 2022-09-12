@@ -5,21 +5,54 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Al Camara</title>
+    <link rel="shortcut icon" href="./favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" 
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" 
+    rel="stylesheet" 
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" 
+    crossorigin="anonymous">
     <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/navbar/navbar.css">
     <link rel="stylesheet" href="./style/hero-section/hero-section.css">
+    <link rel="stylesheet" href="./style/aboutme/aboutme.css">
 </head>
 <body>
     <!-- Nav bar -->
+    <nav class="navbar navbar-expand-lg ">
+        <div class="container-fluid">
+          <a class="navbar-brand logo" href="#">ACamara</a>
+          <button class="navbar-toggler menu-btn" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+              </svg>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav list-color">
+              <li class="nav-item">
+                <a class="nav-link" href="#aboutMe">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
 
-    
     <!-- Hero Section -->
     <section class="hero">
         <div class="hero-title-container">
             <h1 class="hero-title">
-                My Name is <span class="name">Al Camara</span>.
+                My Name Is <span class="name">Al Camara</span>.
             </h1>
             <h2 class="hero-subtitle">
-                I am a <span class="title">Full Stack Developer</span>!
+                I Am A <span class="title">Full Stack Software Engineer</span>!
             </h2>
             <button class="call2action-btn btn"> Learn More About Me</button>
         </div>
@@ -28,14 +61,45 @@
             <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/200/svg">
                 <path fill="#FF6F00" d="M52.9,-45.2C66,-25.9,72.1,-4,67.3,14.6C62.4,33.2,46.6,48.5,28.8,55.3C11,62.2,-8.7,60.5,-28.4,53.3C-48.2,46,-68,33,-73.5,15C-79.1,-3,-70.4,-26.1,-55.8,-45.8C-41.1,-65.5,-20.6,-81.9,-0.3,-81.6C19.9,-81.4,39.9,-64.5,52.9,-45.2Z" transform="translate(100 100)" />
               </svg>    
-        </div>
-
-        
-        
+        </div>  
     </section>
+    <!-- About Me -->
     
+    <section id="aboutMe" class="aboutMe">
+      <h1>ABOUT ME</h1>
+      <div class="aboutMe-container-1">
+          <p>
+            I am a Full Stack Software Engineer from Minneapolis, MN. 
+            I am passionate about learning new technologies and developing
+             innovative solutions to complex problems. 
+          </p>
+          <p>
+            Things I enjoy doing are traveling, hanging out with friends 
+            and family, and entering tournaments to play a competitive 
+            Esport game called Street Fighter 5. 
+          </p>
+          
+      </div>
+      <div class="aboutMe-container-2">
+        <p>
+          These three things make me stand out from other engineers:
+        </p>
+        <ul>
+          <li>I can quickly grasp many moving parts and how all the different pieces connect.</li>
+          <li>I methodically break things down and strategize to crack the code to problems.</li>
+          <li>I apply effort, attention, and elbow grease to push through the end of the work.</li>
+        </ul>
+      </div>
+    </section>
+    <!-- Tech Stack -->
 
+    <!-- Projects -->
+
+    <!-- contact Me -->
+    
     <script src="./vender/jQuery.js"></script>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
     <script src="./client/client.js"></script>
 </body>
 </html>

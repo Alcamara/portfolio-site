@@ -1,0 +1,37 @@
+
+:root{
+    font-size: 16px;
+    --primary-color: #0090f5;
+    --secondary-color: #ff6f00;
+}
+
+.navbar {
+    color: white;
+    background-color: var(--primary-color);
+    
+}
+
+.logo{
+    color: white;  
+}
+
+button.menu-btn{
+    color: transparent;
+    border: 1px solid white;
+}
+
+button.menu-btn svg {
+    color: white;
+}
+
+.list-color a{
+    color: white;
+}
+
+.list-color a:hover{
+    color: white;
+    font-weight: bolder;
+}
+
+
+
