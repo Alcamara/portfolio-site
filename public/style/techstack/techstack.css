@@ -1,3 +1,34 @@
 .techstack{
-    height: 100vh;
+    padding: 3em;
 }
+
+.techstack h2{
+    text-align: center;
+}
+
+.techStack-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.techstack-item{
+    background-color: #ff6f00;
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    border: 1px solid #ff6f00;
+    border-radius: 20px;
+    padding: 1.3em 2.5em;
+    margin: 1rem 0;
+}
+
+
+@media (max-width: 450px){
+
+    .techStack-list{
+        flex-direction: column;
+    }
+
+}
+
