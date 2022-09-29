@@ -20,10 +20,11 @@
     <link rel="stylesheet" href="./style/aboutme/aboutme.css">
     <link rel="stylesheet" href="./style/techstack/techstack.css">
     <link rel="stylesheet" href="./style/projects/projects.css">
+    <link rel="stylesheet" href="./style/contact-me/contact-me.css">
 </head>
 <body>
     <!-- Nav bar -->
-    <nav class="navbar navbar-expand-lg ">
+    <nav class="navbar sticky-top navbar-expand-lg ">
         <div class="container-fluid">
           <a class="navbar-brand logo" href="#">ACamara</a>
           <button class="navbar-toggler menu-btn" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -122,14 +123,45 @@
     </section>
 
     <!-- Projects -->
-    <div class="projects-container">
-      <h2>Projects</h2>
-    </div>
+    <section class="projects">
+      <h1>Projects</h1>
+      <div class="projects-container">
+        
+        <div class="project  project-1">
+          <h3>Crush Counter</h3>
+          <img src="./images/CC-BookMarkTournament.gif" alt="Demo of Crush Counter web app" srcset="">
+        </div>
+        <div class="project  project-2">
+          <h3>Groupie</h3>
+          <img src="./images/184051065-a5c34384-5bd3-4b95-a5ab-d0f11d422175.gif" alt="Demo of Groupie web app" srcset="">
+        </div>
+      </div>
+    </section>
 
     <!-- contact Me -->
-    <div class="contact-me">
+    <section class="contact-me">
       <h2>Contact Me</h2>
-    </div>
+      <div class="contact-form-container">
+        <form class="row g-3">
+          <div class="col-md-6">
+            <label for="inputEmail4" class="form-label">Name</label>
+            <input type="email" class="form-control" id="inputEmail4">
+          </div>
+          <div class="col-md-6">
+            <label for="inputPassword4" class="form-label">Email</label>
+            <input type="password" class="form-control" id="inputPassword4">
+          </div>
+          <div class="col-12">
+            <label for="inputAddress" class="form-label">Subject</label>
+            <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+          </div>
+          <div class="col-12">
+            <label for="inputAddress2" class="form-label">Address 2</label>
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+          </div>
+        </form>
+      </div>
+    </section>
     
     <script src="./vender/jQuery.js"></script>
     <!-- JavaScript Bundle with Popper -->

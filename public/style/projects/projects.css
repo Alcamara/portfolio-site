@@ -1,4 +1,50 @@
+:root{
+    font-size: 16px;
+    --primary-color: #0090f5;
+    --secondary-color: #ff6f00;
+}
+
+.projects{
+    background-color: #0090f5;
+    padding: 3em;
+    text-align: center;
+    position: relative;
+}
+
+.projects h1{
+    color: #ff6f00;
+    padding: .3em .5em;
+    background-color: white;
+    position: absolute;
+    top: -27px;
+    right: 60px;
+}
+
 .projects-container{
-    background-color: blue;
-    height: 100vh;
+  display: flex;
+
+}
+
+.project{
+    padding: .4em .8em;
+    border: 10px solid white ;
+    margin: 1.5rem 1rem;
+}
+
+.project img{
+    width: 100%;
+}
+
+
+@media (max-width: 450px){
+
+    .projects-container{
+        flex-direction: column;
+    }
+
+    .projects h1{
+        top: -27px;
+        right: 140px;
+    }
+
 }

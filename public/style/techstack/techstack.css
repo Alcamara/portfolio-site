@@ -4,6 +4,12 @@
 
 .techstack h2{
     text-align: center;
+
+        font-size: 72px;
+        background: -webkit-linear-gradient(#ff6f00, #0090f5);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    
 }
 
 .techStack-list{
